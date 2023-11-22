@@ -7,8 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-python-telegram-bot = "^20.6"
+python-telegram-bot = {extras = ["job-queue"], version = "^20.6"}
 schedule = "^1.2.1"
+pytz = "^2023.3.post1"
 
 
 [build-system]
